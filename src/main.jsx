@@ -5,13 +5,16 @@ import "./assets/css/index.css";
 import {RouterProvider} from "react-router-dom";
 import routes from "./routes/routes.jsx";
 import AuthProvider from "./context/AuthProvider";
+import ServiceProvider from "./context/ServiceProvider";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <AuthProvider>
-      <HelmetProvider>
-        <RouterProvider router={routes} />
-      </HelmetProvider>
+      <ServiceProvider>
+        <HelmetProvider>
+          <RouterProvider router={routes} />
+        </HelmetProvider>
+      </ServiceProvider>
     </AuthProvider>
   </React.StrictMode>
 );
