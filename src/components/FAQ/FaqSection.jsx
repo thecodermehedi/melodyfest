@@ -49,17 +49,17 @@ const faq = [
 const FaqSection = () => {
   return (
     <section className="bg-[#181A1B]  p-5 md:p-10 lg:px-20">
-      <h1 className="font-bold uppercase text-xl md:text-2xl  text-blue-500 mb-5">
+      <h1 className="font-bold uppercase text-xl md:text-2xl  text-blue-500 mb-5" data-aos="fade-up">
         faq
       </h1>
-      <p className="font-semibold text-xl  md:text-3xl lg:text-5xl text-slate-300 mb-5">
+      <p className="font-semibold text-xl  md:text-3xl lg:text-5xl text-slate-300 mb-5" data-aos="fade-up">
         The Most Common Questions
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-10">
         {faq.map((aq, idx) => (
           <div
             key={idx}
-            className="card lg:w-96 bg-black bg-opacity-50 shadow-xl"
+            className="card lg:w-96 bg-black bg-opacity-50 shadow-xl" data-aos="fade-up"
           >
             <div className="card-body">
               <h2 className="card-title text-white text-2xl">{aq.title}</h2>

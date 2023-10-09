@@ -5,7 +5,7 @@ import {Autoplay, Pagination} from "swiper/modules";
 const SwiperSlider = () => {
   return (
     <>
-      <section className="hidden lg:block ">
+      <section className="hidden lg:block " data-aos="fade-up">
         <Swiper
           slidesPerView={2}
           spaceBetween={10}

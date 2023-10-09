@@ -5,6 +5,7 @@ import Services from "../../components/Services/Services";
 import Footer from "./../../components/Footer/Footer";
 import Testimonial from "../../components/Testimonial/Testimonial";
 import FaqSection from "./../../components/FAQ/FaqSection";
+
 const Home = () => {
   return (
     <>

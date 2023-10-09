@@ -9,6 +9,9 @@ import bannerFour from "../../assets/images/bannerFour.jpg";
 import bannerFive from "../../assets/images/bannerFive.jpg";
 import bannerSix from "../../assets/images/bannerSix.jpg";
 import Navbar from "./../Navbar/Navbar";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 const Banner = () => {
   return (
     <header className="relative">
@@ -37,14 +40,23 @@ const Banner = () => {
             <div className="hero-overlay bg-black bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
               <div className="flex flex-col justify-center items-center text-white">
-                <h1 className="mb-5 text-3xl  md:text-5xl lg:text-7xl font-bold">
+                <h1
+                  className="mb-5 text-3xl  md:text-5xl lg:text-7xl font-bold"
+                  data-aos="fade-up"
+                >
                   Experience the Rhythm of MelodyFest
                 </h1>
-                <p className="font-bold text-white text-opacity-70  md:text-lg  w-80 md:w-[30rem] lg:w-[35rem] mb-5">
+                <p
+                  className="font-bold text-white text-opacity-70  md:text-lg  w-80 md:w-[30rem] lg:w-[35rem] mb-5"
+                  data-aos="fade-up"
+                >
                   Dive into a world of musical wonders, where every beat tells a
                   story and every note ignites your soul.
                 </p>
-                <button className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border border-white text-white min-h-0 h-10 lg:h-12 hover:bg-white hover:text-black hover:border-white normal-case font-bold text-xl">
+                <button
+                  className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border border-white text-white min-h-0 h-10 lg:h-12 hover:bg-white hover:text-black hover:border-white normal-case font-bold text-xl"
+                  data-aos="fade-up"
+                >
                   Explore Events
                 </button>
               </div>
