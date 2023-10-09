@@ -1,0 +1,145 @@
+[
+  {
+    "id": 1,
+    "name": "Concert Planning",
+    "photo": "https://i.ibb.co/c3H8JvM/concert-1.jpg",
+    "placeholder": "https://placehold.co/1920x1080",
+    "short_description": "Expertly planned concerts tailored to your musical vision.",
+    "long_description": "Our concert planning service includes venue selection, artist booking, sound and lighting setup, audience engagement strategies, and seamless event execution. Immerse your audience in a harmonious celebration.",
+    "full_description": "MelodyFest's Concert Planning service is the epitome of musical perfection. From the moment you engage with us, we meticulously craft every detail of your concert experience. Our expert team handles venue selection, artist booking, and technical setup, ensuring your event is flawless. As the day of the concert arrives, our professionals manage sound and lighting with precision, creating an atmosphere that resonates with the soul. We engage your audience with innovative strategies, leaving a lasting impact. Join us in creating musical memories that echo in eternity. With our Concert Planning service, your event becomes a symphony of perfection, a crescendo of unforgettable moments, and a harmony of seamless execution. Let MelodyFest transform your musical dreams into reality, orchestrating an event that echoes in the hearts of every attendee.",
+    "price": "$10,000 - $50,000",
+    "duration": "1 day",
+    "additional_services": [
+      "VIP Experiences",
+      "Sound Equipment Rentals",
+      "Artist Meet-and-Greet"
+    ],
+    "reviews": [
+      {
+        "user": "JohnDoe123",
+        "comment": "Absolutely fantastic concert experience! MelodyFest exceeded our expectations."
+      },
+      {
+        "user": "MusicLover456",
+        "comment": "Incredible sound quality and artist lineup. Will definitely book again!"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Festival Organization",
+    "photo": "https://i.ibb.co/KwTvXy4/festival-1.jpg",
+    "placeholder": "https://placehold.co/1920x1080",
+    "short_description": "Lively and immersive music festivals tailored to your audience.",
+    "long_description": "Our festival organization service covers concept creation, venue setup, ticketing solutions, artist coordination, themed decorations, and interactive activities. Experience a vibrant and memorable music festival.",
+    "full_description": "Experience the magic of MelodyFest's Festival Organization service, where your musical dreams come to life in a vibrant extravaganza. Dive into a world of creativity, where concepts evolve into captivating experiences. Our dedicated team meticulously plans every detail, from venue setup that mesmerizes to ticketing solutions that simplify. Artists blend seamlessly with themed decorations, creating an ambiance that resonates with your audience's soul. Interactive activities engage, enrich, and entertain, leaving an indelible mark on every attendee. With MelodyFest, your festival becomes an immersive journey, a celebration of music, and a tapestry of unforgettable moments. Let us craft an experience where music meets magic, and memories are born.",
+    "price": "$50,000 - $200,000",
+    "duration": "2-3 days",
+    "additional_services": [
+      "Food Vendor Management",
+      "Interactive Workshops",
+      "Themed Decor"
+    ],
+    "reviews": [
+      {
+        "user": "FestGoer789",
+        "comment": "The festival atmosphere was electric! MelodyFest knows how to throw a party."
+      },
+      {
+        "user": "MusicExplorer",
+        "comment": "Great lineup, seamless organization. Can't wait for the next festival!"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "VIP Experiences",
+    "photo": "https://i.ibb.co/Q93n20f/vip-1.jpg",
+    "placeholder": "https://placehold.co/1920x1080",
+    "short_description": "Exclusive VIP packages for unparalleled music event experiences.",
+    "long_description": "Our VIP experiences include backstage access, meet-and-greet opportunities with artists, premium seating, complimentary drinks, and exclusive event merchandise. Elevate your event experience with our VIP packages.",
+    "full_description": "Embark on an exclusive musical odyssey with MelodyFest's VIP Experiences. From the allure of backstage secrets to the privilege of premium seating, indulge in unparalleled luxury. Immerse yourself in the ambiance of artist meet-and-greets, capturing moments that live beyond the stage. Savor complimentary drinks that enhance every note and embrace the exclusivity of event merchandise that echoes your passion. With our VIP packages, your musical journey transcends ordinary boundaries, ushering you into a realm of sophistication and indulgence. Elevate your event experience, and let every moment be a symphony of opulence.",
+    "price": "$500 - $2,000",
+    "duration": "Varies by Event",
+    "additional_services": [
+      "Personal Event Concierge",
+      "Customized Event Merchandise"
+    ],
+    "reviews": [
+      {
+        "user": "SuperFan1",
+        "comment": "Meeting my favorite artist backstage was a dream come true! MelodyFest made it happen."
+      },
+      {
+        "user": "VIPGuest123",
+        "comment": "The VIP lounge was luxurious, and the staff was incredibly accommodating. Highly recommended!"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Artist Meet-and-Greet",
+    "photo": "https://i.ibb.co/jHPGwGz/meetandgreet.jpg",
+    "placeholder": "https://placehold.co/1920x1080",
+    "short_description": "Exclusive opportunities to meet your favorite artists up close.",
+    "long_description": "MelodyFest's Artist Meet-and-Greet service provides fans with the chance to interact with their idols, take photos, and receive autographs. Immerse yourself in a personal encounter with renowned artists.",
+    "full_description": "Dive into a world of intimate connections with MelodyFest's Artist Meet-and-Greet service. Step into the shoes of your favorite fan, meeting music legends up close and personal. Engage in heartwarming conversations, capture memories through cherished photos, and receive autographs that carry the weight of musical history. This exclusive 30-minute experience transcends the conventional fan-artist dynamic, creating memories that resonate for a lifetime. MelodyFest ensures your encounter with renowned artists is not just a meeting; it's a chapter in your musical journey, a cherished moment in time.",
+    "price": "$200 - $1,000",
+    "duration": "30 minutes",
+    "additional_services": ["Exclusive Merchandise", "Autograph Sessions"],
+    "reviews": [
+      {
+        "user": "Fanatic23",
+        "comment": "Meeting my favorite band was a dream come true! MelodyFest made it an unforgettable experience."
+      },
+      {
+        "user": "MusicLover22",
+        "comment": "The artists were so friendly and accommodating. A must-do for any fan!"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Sound Equipment Rentals",
+    "photo": "https://i.ibb.co/C2PtYCP/soundbox-1.jpg",
+    "placeholder": "https://placehold.co/1920x1080",
+    "short_description": "High-quality sound equipment for impeccable audio experiences.",
+    "long_description": "MelodyFest's Sound Equipment Rentals offer professional-grade audio solutions for events of all scales. Immerse your audience in crystal-clear sound, ensuring every note resonates with perfection. Our top-notch sound systems, microphones, and technical support guarantee an exceptional auditory experience for both artists and listeners.",
+    "full_description": "Experience auditory brilliance with MelodyFest's Sound Equipment Rentals. Our professional-grade audio solutions redefine live experiences, ensuring every note, every beat, and every whisper resonates with pristine clarity. Picture a concert where music transcends ordinary sound systems, immersing the audience in a harmonious blend of melodies. Our top-notch sound systems create an acoustic haven where artists find their true voice, and listeners discover the nuances of every composition. With precision-engineered microphones and expert technical support, MelodyFest guarantees an auditory journey that leaves a lasting echo. Elevate your event with our premium audio solutions, where sound becomes an unforgettable memory.",
+    "price": "$500 - $5,000",
+    "duration": "Per Event",
+    "additional_services": ["Technical Support", "Setup Assistance"],
+    "reviews": [
+      {
+        "user": "EventPro123",
+        "comment": "The sound quality was exceptional! MelodyFest's equipment made our event a success."
+      },
+      {
+        "user": "MusicEnthusiast",
+        "comment": "Professional-grade sound systems. Highly recommended for any music event!"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Themed Decor Services",
+    "photo": "https://i.ibb.co/GcXxSCJ/decor-1.jpg",
+    "placeholder": "https://placehold.co/1920x1080",
+    "short_description": "Creative and thematic decorations to enhance event ambiance.",
+    "long_description": "Transform ordinary spaces into extraordinary realms with MelodyFest's Themed Decor Services. Imagine entering a venue where each corner tells a unique story, where decor harmonizes with your event's theme. Our creative experts meticulously craft elegant backdrops, vibrant stage setups, and thematic elements that captivate every guest.",
+    "full_description": "MelodyFest's Themed Decor Services redefine event aesthetics, turning mundane spaces into extraordinary realms of creativity. Step into a venue where each corner narrates a unique tale, where decor harmonizes with your event's theme to create an immersive experience. Our creative experts meticulously craft every element, from elegant backdrops that frame the stage to vibrant stage setups that burst with color and energy. Witness the transformation of ordinary spaces into extraordinary visual spectacles, where decor becomes an essential storyteller. Elevate your event ambiance with MelodyFest's imaginative decor solutions, ensuring every guest is enchanted from the moment they enter.",
+    "price": "$1,000 - $10,000",
+    "duration": "Per Event",
+    "additional_services": ["Custom Theme Creation", "Venue Assessment"],
+    "reviews": [
+      {
+        "user": "EventMagic",
+        "comment": "The decor was stunning! MelodyFest brought our theme to life with their creative touch."
+      },
+      {
+        "user": "DecorEnthusiast",
+        "comment": "Attention to detail and creativity at its best. Exceptional decor services!"
+      }
+    ]
+  }
+]
