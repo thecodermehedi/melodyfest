@@ -1,14 +1,14 @@
 import {Helmet} from "react-helmet-async";
 import Footer from "../../components/Footer/Footer";
 import NavbarSecond from "../../components/NavbarSecond/NavbarSecond";
-import { toast } from "react-toastify";
+import {toast} from "react-toastify";
 
 const ContactUs = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     toast.success("Message sent successfully");
     e.target.reset();
-  }
+  };
   return (
     <section>
       <Helmet>
@@ -39,7 +39,7 @@ const ContactUs = () => {
             <img src="/mailbox.svg" alt="mailbox_picture" />
           </div>
           <form
-            className="bg-black bg-opacity-50 text-slate-300 p-8 rounded-2xl shadow-xl  w-1/2"
+            className="bg-black bg-opacity-50 text-slate-300 p-8 rounded-2xl shadow-xl w-full  lg:w-1/2"
             onSubmit={handleSubmit}
             data-aos="fade-up"
           >
