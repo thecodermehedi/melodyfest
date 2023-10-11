@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 const EventPageCard = ({event}) => {
   return (
-    <div className="card card-side w-full h-[26rem] shadow-xl bg-black bg-opacity-50">
+    <div className="card card-side w-full h-[26rem] shadow-xl bg-black bg-opacity-50" data-aos="fade-up">
       <figure className="overflow-hidden">
         <img
           src={event?.imageUrl}

@@ -42,7 +42,7 @@ const Banner = () => {
               <div className="flex flex-col justify-center items-center text-white">
                 <h1
                   className="mb-5 text-3xl  md:text-5xl lg:text-7xl font-bold"
-                  data-aos="fade-up"
+                  data-aos="fade-down"
                 >
                   Experience the Rhythm of MelodyFest
                 </h1>

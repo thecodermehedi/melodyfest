@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const EventCard = ({event}) => {
   return (
-    <div className="card card-compact w-full lg:w-96 bg-black bg-opacity-50 shadow-xl">
+    <div className="card card-compact w-full lg:w-96 bg-black bg-opacity-50 shadow-xl" data-aos="fade-up">
       <figure className="relative ">
         <img
           src={event?.imageUrl}

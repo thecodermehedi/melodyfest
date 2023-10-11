@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 const ServicePageCard = ({service}) => {
   return (
-    <div className="card w-full card-side h-[26rem] shadow-xl bg-black bg-opacity-50">
+    <div className="card w-full card-side h-[26rem] shadow-xl bg-black bg-opacity-50" data-aos="fade-up">
       <figure className="overflow-hidden">
         <img
           src={service?.photo}
