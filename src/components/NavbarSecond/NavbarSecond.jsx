@@ -111,7 +111,7 @@ const NavbarSecond = ({buttonText, buttonLink}) => {
             </label>
             <ul
               tabIndex={0}
-              className="p-2 shadow menu dropdown-content z-[1] bg-white text-black rounded-box w-52"
+              className="p-2 shadow menu dropdown-content z-[1] bg-black text-white rounded-box w-52"
             >
               {NavLinks}
             </ul>
@@ -139,17 +139,17 @@ const NavbarSecond = ({buttonText, buttonLink}) => {
               </label>
               <ul
                 tabIndex={0}
-                className="p-2 shadow menu dropdown-content z-[1] bg-white text-black rounded-box w-36 md:w-52"
+                className="p-2 shadow menu dropdown-content z-[1] bg-black bg-opacity-50 text-white rounded-box w-36 md:w-52"
               >
-                <li>
-                  <Link className="ml-2 font-semibold" to={"#"}>
+                <p className="text-sm lg:text-base ml-5">
+                  <Link className="font-semibold" to={"#"}>
                     {user?.displayName || "Your Name"}
                   </Link>
-                </li>
-                <li>
+                </p>
+                <li className="pt-3">
                   <Link to={"/settings"}>
                     {" "}
-                    <IoSettingsOutline /> Settings
+                    <IoSettingsOutline /> Account
                   </Link>
                 </li>
                 <li>

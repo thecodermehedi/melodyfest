@@ -10,7 +10,6 @@ import {Icon} from "@iconify/react";
 import {Helmet} from "react-helmet-async";
 const Login = () => {
   const location = useLocation();
-  console.log("loginpage", location);
   const {signInWithEmail, signInWithGoogle, setLoading} =
     useContext(AuthContext);
   const [showPassword, setShowPassword] = useState(false);

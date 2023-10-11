@@ -1,4 +1,4 @@
-import {Link, useNavigate} from "react-router-dom";
+import {Link} from "react-router-dom";
 import {useContext, useState} from "react";
 import {FaEye, FaEyeSlash} from "react-icons/fa6";
 import {toast} from "react-toastify";
@@ -7,12 +7,11 @@ import {AuthContext} from "../../context/AuthProvider";
 import {updateProfile} from "firebase/auth";
 import NavbarSecond from "../../components/NavbarSecond/NavbarSecond";
 import Footer from "../../components/Footer/Footer";
-import { Helmet } from "react-helmet-async";
+import {Helmet} from "react-helmet-async";
 const Signup = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const {signUpWithEmail, setLoading} = useContext(AuthContext);
-  const navigate = useNavigate();
   const handleRegister = (e) => {
     e.preventDefault();
     const form = new FormData(e.currentTarget);
@@ -21,8 +20,6 @@ const Signup = () => {
     const password = form.get("password");
     const confirmPassword = form.get("confirmPassword");
     const termsandcon = e.target.termsandcon.checked;
-    setShowPassword(false);
-    setShowConfirmPassword(false);
     if (!/[A-Z]/.test(password)) {
       toast.error("Password must include at least one uppercase letter.");
       return;
@@ -39,33 +36,32 @@ const Signup = () => {
       toast.error("Password don't match");
       return;
     }
-
     if (!termsandcon) {
-      toast.error("You must accept terms and conditions");
+      toast.error("You must accept our terms and conditions");
       return;
     }
+    e.target.reset();
+    setShowPassword(false);
+    setShowConfirmPassword(false);
     signUpWithEmail(email, password)
       .then((userCredential) => {
         const user = userCredential.user;
         if (user) {
           updateProfile(user, {displayName: name})
             .then(() => {
-              toast.success("Profile updated!");
+              toast.success(`Welcome to our website, ${name}`);
+              return;
             })
             .catch((error) => {
-              toast.error(error.message);
-              console.log(error);
+              console.log(error.message);
+              return;
             });
         }
-        e.target.reset();
-        navigate("/login");
-        toast.success("Signup successful! Please login.");
       })
       .catch((error) => {
         if (error?.message.includes("email-already-in-use")) {
           toast.error("Email already in use");
         }
-        toast.error(error.message);
         console.log(error);
       });
     setLoading(false);
@@ -74,24 +70,20 @@ const Signup = () => {
     <>
       <Helmet>
         <link rel="shortcut icon" href="/icon/signup.svg" type="image/x-icon" />
-        <title>Signup  - MelodyFest</title>
+        <title>Signup - MelodyFest</title>
       </Helmet>
       <section className="min-h-screen bg-[#181A1B]  text-slate-300">
         <NavbarSecond buttonText={"login"} buttonLink={"/login"} />
         <div className="container h-full px-6 py-24">
           <div className="g-6 flex h-full flex-wrap items-center justify-center lg:justify-between">
-            {/* <!-- Left column container with background--> */}
             <div className="mb-12 md:mb-0 md:w-8/12 lg:w-6/12">
               <img src="./164.svg" className="w-full" alt="login-image" />
             </div>
-
-            {/* <!-- Right column container with form --> */}
             <div className="md:w-8/12 lg:ml-6 lg:w-5/12 pb-10">
               <h1 className="text-center text-4xl font-bold text-blue-500 mb-6">
                 Create Your Account
               </h1>
               <form onSubmit={handleRegister} className="flex flex-col gap-2">
-                {/* <!-- Email input --> */}
                 <input
                   type="text"
                   name="name"
@@ -108,7 +100,6 @@ const Signup = () => {
                   className="input bg-blue-500 bg-opacity-10 rounded-2xl border-none focus:outline-none mb-2 text-lg placeholder:text-gray-600 focus:placeholder:text-opacity-0"
                   required
                 />
-                {/* <!-- Password input --> */}
                 <div className="flex flex-col relative">
                   <input
                     type={showPassword ? "text" : "password"}
@@ -130,7 +121,6 @@ const Signup = () => {
                     />
                   )}
                 </div>
-                {/* <!-- Confirm Password input --> */}
                 <div className="flex relative">
                   <input
                     type={showConfirmPassword ? "text" : "password"}
@@ -152,7 +142,6 @@ const Signup = () => {
                     />
                   )}
                 </div>
-                {/* Terms & Conditions */}
                 <div className="ml-3 my-2 flex items-center">
                   <input
                     type="checkbox"
