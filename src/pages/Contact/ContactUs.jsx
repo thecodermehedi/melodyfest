@@ -34,8 +34,8 @@ const ContactUs = () => {
         >
           Reach Out, Let&#39;s Create Harmony
         </p>
-        <div className="flex flex-col lg:flex-row justify-center items-center w-full gap-10 my-20">
-          <div className="w-1/2" data-aos="fade-up">
+        <div className="flex flex-col lg:flex-row justify-center items-center w-full gap-10 lg:my-20">
+          <div className="w-1/2 hidden lg:block" data-aos="fade-up">
             <img src="/mailbox.svg" alt="mailbox_picture" />
           </div>
           <form
