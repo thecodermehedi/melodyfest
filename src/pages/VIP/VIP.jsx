@@ -101,7 +101,7 @@ const Vip = () => {
           Unlock Unforgettable Moments
         </h1>
         <p
-          className="ont-bold text-slate-300 text-opacity-50  md:text-lg mb-5"
+          className="ont-bold text-slate-300 text-opacity-50  md:text-lg mb-5 text-center "
           data-aos="fade-up"
         >
           Elevate Your Event Experience with MelodyFest VIP Packages

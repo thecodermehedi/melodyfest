@@ -85,7 +85,7 @@ const Events = () => {
         <h1 className="font-bold capitalize text-xl text-center  md:text-3xl lg:text-5xl text-slate-300 w-fit mb-5" data-aos="fade-down">
           MelodyFest Events
         </h1>
-        <p className="ont-bold text-slate-300 text-opacity-50  md:text-lg mb-5" data-aos="fade-up">
+        <p className="ont-bold text-slate-300 text-opacity-50 text-center   md:text-lg mb-5" data-aos="fade-up">
           Explore our diverse range of MelodyFest events, from intimate concerts
           to vibrant festivals, tailored to amplify your musical journey.
         </p>

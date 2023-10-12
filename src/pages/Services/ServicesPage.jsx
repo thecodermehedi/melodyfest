@@ -23,7 +23,7 @@ const ServicesPage = () => {
         <h1 className="font-bold capitalize text-xl text-center  md:text-3xl lg:text-5xl text-slate-300 w-fit mb-5" data-aos="fade-down">
           our services
         </h1>
-        <p className="ont-bold text-slate-300 text-opacity-50  md:text-lg mb-5" data-aos="fade-up">
+        <p className="ont-bold text-slate-300 text-opacity-50 text-center  md:text-lg mb-5" data-aos="fade-up">
           Crafting Melodic Experiences Tailored to Your Dreams and Desires: Dive
           into Our Premier Music Event Services.
         </p>
