@@ -100,15 +100,15 @@ const Navbar = () => {
             <div className="dropdown dropdown-end">
               <label
                 tabIndex={0}
-                className="btn btn-sm border-transparent md:btn-md hover:bg-transparent bg-transparent  hover:border-white btn-circle avatar"
+                className="btn btn-sm border-transparent md:btn-md hover:bg-transparent bg-transparent  hover:border-white btn-circle avatar mt-[0.4rem]"
               >
-                <div className="w-5 md:w-9 lg:w-10 rounded-full">
+                <div className="w-10 rounded-full">
                   <img src={user?.photoURL || userPlaceholder} />
                 </div>
               </label>
               <ul
                 tabIndex={0}
-                className="p-2 menu dropdown-content z-[1] bg-black text-white rounded-box w-52"
+                className="p-2 menu dropdown-content z-[1] bg-black text-white rounded-box w-40 lg:w-52"
               >
                 <p className="text-sm lg:text-base ml-5">
                   <Link className="font-semibold" to={"#"}>
