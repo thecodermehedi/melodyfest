@@ -26,7 +26,7 @@ const NavbarSecond = ({buttonText, buttonLink}) => {
           isPending
             ? "pending"
             : isActive
-            ? "active border-b-2 font-semibold px-2 py-1 border-blue-500 text-blue-500"
+            ? "active  lg:border-b-2 font-semibold px-2 py-1 lg:border-blue-500 text-blue-500"
             : "font-semibold px-2 py-1 border-transparent hover:border-blue-500 hover:text-blue-500 border-b-2"
         }
       >
@@ -38,7 +38,7 @@ const NavbarSecond = ({buttonText, buttonLink}) => {
           isPending
             ? "pending"
             : isActive
-            ? "active border-b-2 font-semibold px-2 py-1 border-blue-500 text-blue-500"
+            ? "active  lg:border-b-2 font-semibold px-2 py-1 lg:border-blue-500 text-blue-500"
             : "font-semibold px-2 py-1 border-transparent hover:border-blue-500 hover:text-blue-500 border-b-2"
         }
       >
@@ -51,7 +51,7 @@ const NavbarSecond = ({buttonText, buttonLink}) => {
             isPending
               ? "pending"
               : isActive
-              ? "active border-b-2 font-semibold px-2 py-1 border-blue-500 text-blue-500"
+              ? "active  lg:border-b-2 font-semibold px-2 py-1 lg:border-blue-500 text-blue-500"
               : "font-semibold px-2 py-1 border-transparent hover:border-blue-500 hover:text-blue-500 border-b-2"
           }
         >
@@ -65,8 +65,8 @@ const NavbarSecond = ({buttonText, buttonLink}) => {
             isPending
               ? "pending"
               : isActive
-              ? "active border-b-2 font-semibold px-2 py-1 border-white"
-              : "font-semibold px-2 py-1 border-transparent hover:border-white border-b-2"
+              ? "active  lg:border-b-2 font-semibold px-2 py-1 lg:border-blue-500 text-blue-500"
+              : "font-semibold px-2 py-1 border-transparent hover:border-blue-500 hover:text-blue-500 border-b-2"
           }
         >
           VIP
@@ -78,7 +78,7 @@ const NavbarSecond = ({buttonText, buttonLink}) => {
           isPending
             ? "pending"
             : isActive
-            ? "active border-b-2 font-semibold px-2 py-1 border-blue-500 text-blue-500"
+            ? "active  lg:border-b-2 font-semibold px-2 py-1 lg:border-blue-500 text-blue-500"
             : "font-semibold px-2 py-1 border-transparent hover:border-blue-500 hover:text-blue-500 border-b-2"
         }
       >
@@ -90,7 +90,7 @@ const NavbarSecond = ({buttonText, buttonLink}) => {
           isPending
             ? "pending"
             : isActive
-            ? "active border-b-2 font-semibold px-2 py-1 border-blue-500 text-blue-500"
+            ? "active  lg:border-b-2 font-semibold px-2 py-1 lg:border-blue-500 text-blue-500"
             : "font-semibold px-2 py-1 border-transparent hover:border-blue-500 hover:text-blue-500 border-b-2"
         }
       >
@@ -105,7 +105,7 @@ const NavbarSecond = ({buttonText, buttonLink}) => {
           <div className="dropdown">
             <label
               tabIndex={0}
-              className="btn bg-transparent hover:bg-transparent border-none hover:border-none text-blue-500 lg:hidden text-2xl"
+              className="btn bg-transparent hover:bg-transparent border-none hover:border-none text-white lg:hidden text-2xl"
             >
               <CgMenuLeft />
             </label>
@@ -139,7 +139,7 @@ const NavbarSecond = ({buttonText, buttonLink}) => {
               </label>
               <ul
                 tabIndex={0}
-                className="p-2 shadow menu dropdown-content z-[1] bg-black bg-opacity-50 text-white rounded-box w-36 md:w-52"
+                className="p-2 shadow menu dropdown-content z-[1] bg-black text-white rounded-box w-52"
               >
                 <p className="text-sm lg:text-base ml-5">
                   <Link className="font-semibold" to={"#"}>

@@ -25,7 +25,7 @@ const Navbar = () => {
           isPending
             ? "pending"
             : isActive
-            ? "active border-b-2 font-semibold px-2 py-1 border-white"
+            ? "active text-blue-500 lg:text-white lg:border-b-2 font-semibold px-2 py-1 lg:border-white"
             : "font-semibold px-2 py-1 border-transparent hover:border-white border-b-2"
         }
       >
@@ -33,26 +33,14 @@ const Navbar = () => {
       </NavLink>
       <NavLink
         to={"/services"}
-        className={({isActive, isPending}) =>
-          isPending
-            ? "pending"
-            : isActive
-            ? "active border-b-2 font-semibold px-2 py-1 border-white"
-            : "font-semibold px-2 py-1 border-transparent hover:border-white border-b-2"
-        }
+        className="font-semibold px-2 py-1 border-transparent hover:border-white border-b-2"
       >
         Services
       </NavLink>
       {user && (
         <NavLink
           to={"/events"}
-          className={({isActive, isPending}) =>
-            isPending
-              ? "pending"
-              : isActive
-              ? "active border-b-2 font-semibold px-2 py-1 border-white"
-              : "font-semibold px-2 py-1 border-transparent hover:border-white border-b-2"
-          }
+          className="font-semibold px-2 py-1 border-transparent hover:border-white border-b-2"
         >
           Events
         </NavLink>
@@ -60,38 +48,20 @@ const Navbar = () => {
       {user && (
         <NavLink
           to={"/vip-experiences"}
-          className={({isActive, isPending}) =>
-            isPending
-              ? "pending"
-              : isActive
-              ? "active border-b-2 font-semibold px-2 py-1 border-white"
-              : "font-semibold px-2 py-1 border-transparent hover:border-white border-b-2"
-          }
+          className="font-semibold px-2 py-1 border-transparent hover:border-white border-b-2"
         >
           VIP
         </NavLink>
       )}
       <NavLink
         to={"/about"}
-        className={({isActive, isPending}) =>
-          isPending
-            ? "pending"
-            : isActive
-            ? "active border-b-2 font-semibold px-2 py-1 border-white"
-            : "font-semibold px-2 py-1 border-transparent hover:border-white border-b-2"
-        }
+        className="font-semibold px-2 py-1 border-transparent hover:border-white border-b-2"
       >
         About
       </NavLink>
       <NavLink
         to={"/contact"}
-        className={({isActive, isPending}) =>
-          isPending
-            ? "pending"
-            : isActive
-            ? "active border-b-2 font-semibold px-2 py-1 border-white"
-            : "font-semibold px-2 py-1 border-transparent hover:border-white border-b-2"
-        }
+        className="font-semibold px-2 py-1 border-transparent hover:border-white border-b-2"
       >
         Contact
       </NavLink>{" "}
@@ -110,7 +80,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="p-2 menu dropdown-content z-[1] bg-black bg-opacity-50 text-white rounded-box w-52"
+              className="p-2 menu dropdown-content z-[1] bg-black text-white rounded-box w-52"
             >
               {NavLinks}
             </ul>
@@ -138,7 +108,7 @@ const Navbar = () => {
               </label>
               <ul
                 tabIndex={0}
-                className="p-2 menu dropdown-content z-[1] bg-black bg-opacity-50 text-white rounded-box w-36 md:w-52"
+                className="p-2 menu dropdown-content z-[1] bg-black text-white rounded-box w-52"
               >
                 <p className="text-sm lg:text-base ml-5">
                   <Link className="font-semibold" to={"#"}>

@@ -58,8 +58,7 @@ const Login = () => {
         <NavbarSecond buttonText={"signup"} buttonLink={"/signup"} />
         <div className="container h-full px-6 py-24">
           <div className="g-6 flex h-full flex-wrap items-center justify-center lg:justify-between">
-            {/* <!-- Left column container with background--> */}
-            <div className="mb-12 md:mb-0 md:w-8/12 lg:w-6/12">
+            <div className="mb-12 md:mb-0 hidden lg:block md:w-8/12 lg:w-6/12">
               <img
                 src="./268.svg"
                 className="w-full scale-x-[-1]"
@@ -67,13 +66,11 @@ const Login = () => {
               />
             </div>
 
-            {/* <!-- Right column container with form --> */}
             <div className="md:w-8/12 lg:ml-6 lg:w-5/12 pb-10">
               <h1 className="text-center text-4xl font-bold text-blue-500 mb-6">
                 Welcome back!
               </h1>
               <form onSubmit={handleSignIn} className="flex flex-col gap-2">
-                {/* <!-- Email input --> */}
                 <input
                   type="email"
                   name="email"
@@ -82,7 +79,6 @@ const Login = () => {
                   className="input bg-blue-500 bg-opacity-10 rounded-2xl border-none focus:outline-none mb-2 text-lg"
                   required
                 />
-                {/* <!-- Password input --> */}
                 <div className="flex relative">
                   <input
                     type={showPassword ? "text" : "password"}
